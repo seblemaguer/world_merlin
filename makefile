@@ -9,7 +9,7 @@ OUT_DIR = ./build
 OBJS = $(OUT_DIR)/objs/cheaptrick.o $(OUT_DIR)/objs/common.o $(OUT_DIR)/objs/d4c.o $(OUT_DIR)/objs/dio.o $(OUT_DIR)/objs/fft.o $(OUT_DIR)/objs/matlabfunctions.o $(OUT_DIR)/objs/stonemask.o $(OUT_DIR)/objs/synthesis.o
 LIBS =
 
-default: $(OUT_DIR)/libworld.a
+default: $(OUT_DIR)/libworld.a analysis synth
 test: $(OUT_DIR)/test $(OUT_DIR)/ctest
 analysis: $(OUT_DIR)/analysis
 synth: $(OUT_DIR)/synth
